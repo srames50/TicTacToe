@@ -1,0 +1,50 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .square:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+/* App.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: darkgray; 
+    color: white; 
+  }
+  
+  .game-title {
+    font-family: 'Impact', sans-serif; 
+    font-size: 36px;
+    margin-top: 20px;
+  }
+
+  
